@@ -1,6 +1,8 @@
 services:
   app:
-    image: docker.io/SerhiiCho/englitopia:app
+    image: docker.io/serhiicho/englitopia:app
+    build:
+      dockerfile: services/app/Dockerfile
     environment:
       - APACHE_RUN_USER=#1000
     volumes:
@@ -12,7 +14,9 @@ services:
       - db
 
   db:
-    image: docker.io/SerhiiCho/englitopia:db
+    image: docker.io/serhiicho/englitopia:db
+    build:
+      dockerfile: services/db/Dockerfile
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     volumes:

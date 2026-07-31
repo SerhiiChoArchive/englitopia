@@ -1,0 +1,248 @@
+.wrapper {
+    width: 98%;
+    margin: 3.37rem 1% 0 1%;
+}
+
+.wrapper-stories,
+.wrapper-info {
+    width: 94%;
+    margin: .56rem 3%;
+}
+
+.wrapper-small {
+    width: 60%;
+    margin: 3.75rem 20% 0 20%;
+}
+
+.wrapper-small2 {
+    width: 80%;
+    margin: .06rem 8%;
+    padding: 0.12rem 2%;
+}
+
+.wrapper-stories li,
+.wrapper-info li {
+    margin: 1.12rem 0 1.12rem 7%;
+}
+
+/*-- News events --*/
+
+.event>h4 {
+    margin: .43rem 0 .18rem 0.12rem;
+    font-size: 1rem;
+}
+
+.event > h5 {
+    margin: 0.12rem .43rem 0 .25rem;
+    font-size: 1rem;
+}
+
+.event > a > img {
+    margin: .43rem 4%;
+    width: 92%;
+    border-radius: 0.12rem;
+}
+
+/*-- Navigation bar --*/
+
+.logo-section {
+    width: 8.12rem;
+    height: 0;
+    margin: 0 auto;
+    float: none;
+}
+
+#logo {
+    background-size: 8.12rem;
+    height: 3.56rem;
+    margin: 0;
+}
+
+.hb-button-left {
+    padding: 1rem 1.18rem .75rem 1.31rem;
+    float: left;
+    border: none;
+    background: inherit;
+    display: inline-block;
+}
+
+.hb-button-right {
+    padding: .81rem 1.25rem .75rem 1.18rem;
+}
+
+#nav-menu > ul {
+    max-height: 0;
+    width: 100%;
+    color: #eee;
+    text-align: center;
+    margin-top: 3.06rem;
+}
+
+#nav-menu > ul.show {
+    max-height: 40em;
+}
+
+#nav-menu > ul > li {
+    width: 100%;
+}
+
+#hide-search-box {
+    display: block !important;
+}
+
+#hide-search-box input {
+    width: 90%;
+    height: 2.06rem;
+    border-radius: .18rem;
+    border: none;
+    margin: .62rem 3% .31rem 3%;
+    padding: 0.12rem 2%;
+    background: #484848;
+    color: #eee;
+}
+
+#hide-search-button {
+    display: none !important;
+}
+
+#nav-menu>ul>li>a,
+.logged-in-button {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.li-nav-last {
+    margin-bottom: 2.5rem;
+}
+
+/*-- Search on page search.php --*/
+
+.search-form {
+    width: 80%;
+    max-width: 40.06rem;
+    margin: 1rem 10% 0 10%;
+}
+
+/*-- My profile profile.php --*/
+
+.profile-buttons a,
+.profile-buttons button {
+    font-size: .81rem;
+    padding: 0 .31rem;
+}
+
+/*-- Settings --*/
+
+.settings-general {
+    width: 45.5%;
+    padding: 0 1%;
+}
+
+/*-- Chat --*/
+
+.wrapper-chat {
+    width: 80%;
+    margin: 3.43rem 8% 0 8%;
+    border-radius: 0;
+}
+
+#button-load-chat {
+    width: 30%;
+    left: 36%;
+}
+
+.chat-form textarea {
+    border-radius: 0;
+}
+
+.wrapper-member-table {
+    width: 96%;
+    margin: 1rem 2%;
+}
+
+.members-table-info {
+    font-size: .75rem;
+}
+
+/*-- Login system --*/
+
+.buttons-section a {
+    letter-spacing: .06rem;
+}
+
+.buttons-section button {
+    padding: .06rem .37rem;
+    letter-spacing: .06rem;
+}
+
+.header, .header2 {
+    width: 98%;
+    margin: 0 1%;
+    padding: 0;
+    border: none;
+}
+
+/*-- Admins page --*/
+
+.admin-table {
+    font-size: .62rem;
+}
+
+.admin-table, th, td {
+    padding: .31rem 0;
+}
+
+/*-- Pods and stories --*/
+
+.stories {
+    width: 46%;
+    margin: .25rem 2% .5rem 2%;
+}
+
+.audio {
+    margin: .62rem 5%;
+    width: 90%;
+}
+
+.popup-window {
+    left: 2%;
+    width: 96%;
+}
+
+/*-- Footer --*/
+
+.hr-mobile {
+    display: inline-block;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.nav-footer {
+    width: 96%;
+    margin: .43rem 2%;
+}
+
+.footer-col-first {
+    width: 96%;
+    float: left;
+    margin: .31rem 1% .31rem 1%;
+}
+
+.footer-col-first>div {
+    width: 79%;
+    margin-right: 3%;
+}
+
+.footer-col {
+    width: 32%;
+    margin: .31rem 3% .31rem 0;
+    text-align: center;
+}
+
+.footer-col-last {
+    width: 30%;
+    margin: .31rem 0;
+    text-align: center;
+}
