@@ -8,11 +8,10 @@ RUN apt-get update \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
         build-essential \
-        mysql-client \
+        default-mysql-client \
         libbz2-dev \
         libmcrypt-dev \
-        libcurl3 \
-        libcurl3-dev \
+        libcurl4 \
         libzip-dev \
         zip \
         vim \

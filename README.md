@@ -34,6 +34,7 @@ Example:
 ```bash
 git clone https://codeberg.org/SerhiiCho/englitopia.git
 ```
+
 or with SSH
 
 ```bash

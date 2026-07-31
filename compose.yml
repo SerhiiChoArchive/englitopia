@@ -3,10 +3,8 @@ services:
     image: docker.io/serhiicho/englitopia:app
     build:
       dockerfile: services/app/Dockerfile
-    environment:
-      - APACHE_RUN_USER=#1000
     volumes:
-      - ./src:/var/www/html:z
+      - ./services/app/src:/var/www/html:z
     ports:
       - 7000:80
     working_dir: /var/www/html
