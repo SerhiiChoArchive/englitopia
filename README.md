@@ -1,4 +1,4 @@
-![englitopia](src/media/img/banner1.jpg)
+![englitopia](services/app/src/media/img/banner1.jpg)
 
 ## About
 
