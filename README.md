@@ -29,20 +29,26 @@ Example:
 * **host** - can upload podcasts and other things related to podcasts
 * **writer** - can upload stories and other things related to stories
 
-## Get started without Docker
+## Get started without containers
 
 1. Put your database settings in *src/config.php*
 2. Create database with name *"englitopia"*
 3. Import *dump.sql* dump file from db directive
 4. `php -S localhost:7000` and go to a browser on *localhost:7000*
 
-## Get started with Docker
+## Get started
 
 ```bash
-git clone https://github.com/SerhiiCho/englitopia.git
+git clone https://codeberg.org/SerhiiCho/englitopia.git
 ```
+or with SSH
+
 ```bash
-cd englitopia && docker-compose up -d
+git clone ssh://git@codeberg.org/SerhiiCho/englitopia.git
+```
+
+```bash
+cd englitopia && podman-compose up -d
 ```
 
 Now you can go to localhost:7000. Note that if you see the white screen it means that  MySQL init process is doing its job. It usually takes 20-30 second to see the site.

@@ -1,0 +1,26 @@
+services:
+  app:
+    image: docker.io/SerhiiCho/englitopia:app
+    environment:
+      - APACHE_RUN_USER=#1000
+    volumes:
+      - ./src:/var/www/html:z
+    ports:
+      - 7000:80
+    working_dir: /var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: docker.io/SerhiiCho/englitopia:db
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    volumes:
+      db_vol:/var/lib/mysql:z
+    environment:
+      MYSQL_ROOT_PASSWORD: 111111
+      MYSQL_DATABASE: englitopia
+
+volumes:
+  db_vol:
+    driver: local
