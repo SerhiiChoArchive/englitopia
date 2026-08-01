@@ -32,13 +32,13 @@ Example:
 ## Get started
 
 ```bash
-git clone https://codeberg.org/SerhiiCho/englitopia.git
+git clone https://github.com/SerhiiCho/englitopia.git
 ```
 
 or with SSH
 
 ```bash
-git clone ssh://git@codeberg.org/SerhiiCho/englitopia.git
+git clone git@github.com:SerhiiCho/englitopia.git
 ```
 
 ```bash
